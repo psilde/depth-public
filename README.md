@@ -2,15 +2,9 @@
 
 <br/>
 
-<img src=".github/assets/logo.svg" width="56" height="56" alt="Depth" />
+<img src=".github/assets/banner.svg" alt="Depth — Know your lobby. Before you play." width="680" />
 
 <br/><br/>
-
-# DEPTH
-
-**Know your lobby. Before you play.**
-
-<br/>
 
 [![Version](https://img.shields.io/badge/version-v0.7.0-7C5CFC?style=flat-square&labelColor=0d1117)](https://github.com/psilde/depth-public/releases)
 [![Platform](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square&logo=windows&logoColor=white&labelColor=0d1117)](https://github.com/psilde/depth-public/releases/latest)

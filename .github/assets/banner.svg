@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 110" fill="none">
+  <defs>
+    <linearGradient id="dg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A990FF"/>
+      <stop offset="100%" stop-color="#5B3FD4"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Diamond icon -->
+  <polygon
+    points="303,16 335,48 303,80 271,48"
+    fill="url(#dg)"
+    filter="url(#glow)"
+  />
+
+  <!-- DEPTH wordmark -->
+  <text
+    x="354" y="75"
+    font-family="'Arial Black','Arial',sans-serif"
+    font-weight="900"
+    font-size="58"
+    letter-spacing="10"
+    fill="#EAE6FF"
+  >DEPTH</text>
+
+  <!-- Tagline -->
+  <text
+    x="380" y="100"
+    text-anchor="middle"
+    font-family="Arial,sans-serif"
+    font-size="14"
+    letter-spacing="2"
+    fill="#7069A4"
+  >Know your lobby. Before you play.</text>
+</svg>
